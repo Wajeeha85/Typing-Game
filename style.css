@@ -1,0 +1,109 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(41, 201, 201);
+  background: url(./pngtree-typing-in-neon-keyboard-with-vibrant-cartoon-hands-and-rgb-light-image_3881097.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.key {
+  border: 4px solid;
+  border-radius: 7px;
+  margin: 0px 11px 1.5rem 0px;
+  padding: 10px;
+  font-weight: bolder;
+  color: rgb(16, 223, 16);
+  font-size: 4rem;
+  display: flex;
+  box-shadow: 3px 3px 4px aqua;
+  text-shadow: 3px 3px 4px rgb(202, 93, 129);
+}
+.scores {
+  color: blue;
+  font-weight: bolder;
+  font-size: 3rem;
+  text-shadow: 2px 2px 3px rgb(16, 223, 16);
+  margin-left: 10px;
+}
+.blue {
+  color: blue;
+}
+#TimeGoes {
+  color: yellow;
+  text-shadow: 2px 2px 4px black;
+  font-size: 3rem;
+  position: absolute;
+  left: 52%;
+  top: 11%;
+  font-weight: bolder;
+}
+#start {
+  color: rgb(228, 18, 88);
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px yellow;
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+}
+#timer {
+  border: 4px solid aqua;
+  color: rgb(16, 223, 16);
+  display: flex;
+  width: 10%;
+  font-weight: bolder;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  border-radius: 15px;
+  box-shadow: 3px 2px 4px rgb(192, 117, 192);
+  text-shadow: 2px 2px 4px rgb(192, 117, 192);
+  position: absolute;
+  left: 82.3%;
+  top: 19%;
+  padding: 4px;
+}
+.margin {
+  margin-left: 7px;
+}
+.setTimer {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#score {
+  border: 4px solid firebrick;
+  border-radius: 15px;
+  width: 12%;
+  color: yellow;
+  box-shadow: 3px 2px 4px;
+  text-shadow: 2px 2px 4px rgb(192, 117, 192);
+  font-weight: bolder;
+  font-size: 4.3rem;
+}
+.myScore {
+  gap: 29px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.change {
+  color: black;
+}
+.bliff {
+  color: aqua;
+}
+.effect {
+  transition: background-color 0.3s ease;
+  background-color: rgb(255, 255, 0);
+}
+.scale {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.keys {
+  background-color: skyblue;
+}
